@@ -1,0 +1,20 @@
+[0;1;32m●[0m bluetooth.service - Bluetooth service
+   Loaded: loaded (/lib/systemd/system/bluetooth.service; enabled; vendor preset: enabled)
+   Active: [0;1;32mactive (running)[0m since Tue 2021-05-18 19:45:27 CEST; 37min ago
+     Docs: man:bluetoothd(8)
+ Main PID: 742 (bluetoothd)
+   Status: "Running"
+    Tasks: 1 (limit: 4915)
+   CGroup: /system.slice/bluetooth.service
+           └─742 /usr/lib/bluetooth/bluetoothd
+
+May 18 19:45:27 raspberrypi bluetoothd[742]: Bluetooth daemon 5.50
+May 18 19:45:27 raspberrypi systemd[1]: Started Bluetooth service.
+May 18 19:45:27 raspberrypi bluetoothd[742]: Starting SDP server
+May 18 19:45:27 raspberrypi bluetoothd[742]: Bluetooth management interface 1.18 initialized
+May 18 19:45:27 raspberrypi bluetoothd[742]: [0;1;31m[0;1;39m[0;1;31mSap driver initialization failed.[0m
+May 18 19:45:27 raspberrypi bluetoothd[742]: [0;1;31m[0;1;39m[0;1;31msap-server: Operation not permitted (1)[0m
+May 18 19:45:27 raspberrypi bluetoothd[742]: Endpoint registered: sender=:1.21 path=/MediaEndpoint/A2DPSource
+May 18 19:45:27 raspberrypi bluetoothd[742]: Endpoint registered: sender=:1.21 path=/MediaEndpoint/A2DPSink
+May 18 19:45:27 raspberrypi bluetoothd[742]: [0;1;31m[0;1;39m[0;1;31mFailed to set privacy: Rejected (0x0b)[0m
+May 18 19:45:27 raspberrypi bluetoothd[742]: [0;1;31m[0;1;39m[0;1;31mFailed to set device class: Not Powered (0x0f)[0m
